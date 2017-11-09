@@ -1,0 +1,6 @@
+/public
+*.log
+*.info
+/node_modules
+/dist
+.idea

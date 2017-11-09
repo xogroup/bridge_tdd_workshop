@@ -1,0 +1,12 @@
+{
+  "presets": [
+    ["es2015", { "modules": false }],
+    "react"
+  ],
+  "plugins": [
+    "react-html-attrs",
+    "transform-object-assign",
+    "transform-object-rest-spread",
+    "transform-undefined-to-void"
+  ]
+}
