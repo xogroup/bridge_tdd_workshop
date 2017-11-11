@@ -5,6 +5,7 @@
   "main": "client/index.js",
   "scripts": {
     "clean": "rimraf dist",
+    "test:watch":  "NODE_ENV=test karma start karma.config.js --auto-watch",
     "test": "NODE_ENV=test karma start --single-run --no-auto-watch karma.config.js",
     "start": "webpack-dev-server --config webpack/webpack_config_dev.js --hot --inline",
     "build": "APP_ENV=development webpack --config webpack/webpack_config_dev.js --progress --colors --display-error-details --debug --devtool source-map --output-pathinfo"
