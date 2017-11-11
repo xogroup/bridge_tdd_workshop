@@ -24,9 +24,17 @@ $ npm start  # starts the app at localhost:3000
 $ npm test
 ```
 
+## Useful documentation
+
+- [Jasmine](https://jasmine.github.io/2.5/introduction)
+- [Enzyme](http://airbnb.io/enzyme/#basic-usage)
+
+
 ## Different workshop tracks
 
-- Beginner
+Check out this great [React + TDD Post](https://medium.com/@admm/test-driven-development-in-react-is-easy-178c9c520f2f) to guide you through the different tracks. 
+
+- [Beginner](BEGINNER.md)
   - Render component with with plain text
   - Edit component to include if/else logic
   - Add button, where clicking leads to change in text
